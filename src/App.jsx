@@ -8,6 +8,8 @@ import MyLayout from "./components/Layout/myLayout";
 import { Routes, Route } from "react-router-dom";
 import HomePage from "../src/containers/HomePage/HomePage"
 import LoginPage from "./containers/LoginPage/LoginPage";
+import AboutUs from "./containers/About/AboutUs";
+import NewClothes from "./containers/Clothes/NewClothes";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Routes>
           <Route path="/home" element={<HomePage />} />
           <Route path="/login" element={<LoginPage/>} />
+          <Route path="/about-us" element={<AboutUs/>} />
+          <Route path="/clothes" element={<NewClothes/>} />
         </Routes>
       </MyLayout>
     </div>
