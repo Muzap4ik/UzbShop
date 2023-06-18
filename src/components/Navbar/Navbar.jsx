@@ -12,8 +12,8 @@ const Navbar = () => {
       <div classname="links">
         <ul id="linked">
           <Link to={"/home"}>home</Link>
-          <Link>features</Link>
-          <Link>contacts</Link>
+          <Link to={"/about-us"}>haqimizda</Link>
+          <Link to={"/contacts"}>kontaktlar</Link>
           <Link to={"/login"}>login</Link>
         </ul>
       </div>
