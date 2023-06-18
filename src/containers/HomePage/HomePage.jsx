@@ -1,18 +1,19 @@
 import React from "react";
-import "../CardHolder/CardHolder.css";
-import img from "../../fudbplka uzb.jpg";
-import img2 from "../../fudbolka uzb chorniy.jpg";
-import img3 from "../../huddi uzb.jpg"
-import br_img from "../../brelok_oq.jpg";
-import br_img2 from "../../brelok_qora.jpg";
-import br_komplekt from "../../komplekt.jpg";
-import soat_qora from "../../sogot qora.jpg";
-import soat_oq from "../../sogot oq.jpg";
-import soat_dxx from "../../sogot.dxx.jpg";
-import chex_oq from "../../oq chexol.jpg";
-import chex_qora from "../../qora chexol.jpg";
-import chex_prozr from "../../qop qora chexol.jpg";
-const CardHolder = () => {
+import "./HomePage.css";
+import img from "../../images/fudbplka uzb.jpg";
+import img2 from "../../images/fudbolka uzb chorniy.jpg";
+import img3 from "../../images/huddi uzb.jpg"
+import br_img from "../../images/brelok_oq.jpg";
+import br_img2 from "../../images/brelok_qora.jpg";
+import br_komplekt from "../../images/komplekt.jpg";
+import soat_qora from "../../images/sogot qora.jpg";
+import soat_oq from "../../images/sogot oq.jpg";
+import soat_dxx from "../../images/sogot.dxx.jpg";
+import chex_oq from "../../images/oq chexol.jpg";
+import chex_qora from "../../images/qora chexol.jpg";
+import chex_prozr from "../../images/qop qora chexol.jpg";
+
+const HomePage = () => {
   return (
     <div className="card-container">
       <div className="images">
@@ -88,4 +89,4 @@ const CardHolder = () => {
   );
 };
 
-export default CardHolder;
+export default HomePage;

@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-container {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.left-container {
+  width: 40%;
+  height: 700px;
+  background-color: gold;
+  border: 2px dashed #112;
+  background-image: url("../../images/bg-image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  overflow: hidden;
+  position: relative;
+  transition: 0.4s ease-in-out;
+  transform: scale(1);
+  animation: show-loader 2s backwards;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.right-container {
+  width: 40%;
+  height: 700px;
+  background: #333333; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #dd1818,
+    #9b9b9b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #dd1818,
+    #9b9b9b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+  border: 1px solid #af4242;
+}
+.main-title {
+  width: 60%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main-title > h1 {
+  color: lightblue;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+.main-title > p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: lightblue;
+  margin-top: 12px;
+  font-weight: 700;
+  font-size: 1.12rem;
+}
+
+.input-container {
+  margin-top: 25px;
+  width: 100%;
+  height: 497px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.form-signUp {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-signUp > p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: lavender;
+  text-align: left;
+}
+
+.form-signUp > input {
+  width: 100%;
+  height: 60px;
+  border-radius: 35px;
+  border: 1px solid #af4242;
+  background: whitesmoke;
+  text-align: left;
+  padding: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  outline: none;
+  color: #112;
+}
+
+#signUp-btn {
+  width: 449px;
+  height: 70px;
+  border-radius: 10px;
+  background: #fffbd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b20a2c,
+    #fffbd5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b20a2c,
+    #fffbd5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 1px solid #4173b8;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: white;
+  margin-top: 15px;
+  letter-spacing: 2px;
+}
+
+::-webkit-input-placeholder {
+  color: lightskyblue;
+  font-style: oblique;
+}

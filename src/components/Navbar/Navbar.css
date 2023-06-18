@@ -1,4 +1,4 @@
-* {
+  * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -51,12 +51,14 @@
   text-transform: uppercase;
   transition: 0.5s;
 }
-#linked > li {
+#linked > a {
   text-transform: uppercase;
   transition: 0.5s;
+  text-decoration: none;
+  color: white;
 }
 
-#linked > li:hover {
+#linked > a:hover {
   text-decoration: underline;
   opacity: 0.6;
   cursor: pointer;

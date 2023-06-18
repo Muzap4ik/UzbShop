@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
-import gerb from "../../rasm.jpg"
+import gerb from "../../images/rasm.jpg"
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="navbar">
@@ -10,10 +11,10 @@ const Navbar = () => {
       </div>
       <div classname="links">
         <ul id="linked">
-          <li>home</li>
-          <li>about</li>
-          <li>features</li>
-          <li>contacts</li>
+          <Link to={"/home"}>home</Link>
+          <Link>features</Link>
+          <Link>contacts</Link>
+          <Link to={"/login"}>login</Link>
         </ul>
       </div>
     </div>
