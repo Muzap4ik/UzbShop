@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.myFooter-container {
+  margin-top: 5rem;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  border-top: 3px solid red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-contacts,
+.footer-links,
+.footer-disclaimer {
+  margin-top: 8%;
+  width: 250px;
+  height: 100px;
+  background-color: white;
+  color: black;
+  padding: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.footer-links:hover,
+.footer-disclaimer:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.footer-contacts > ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.footer-contacts > ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.footer-links > ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.footer-links > ul a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-links > a li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: 700;
+  color: black;
+}
