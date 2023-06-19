@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/UzbShop/static/css/main.68a1a155.css",
-    "main.js": "/UzbShop/static/js/main.b9ea7dd0.js",
+    "main.js": "/UzbShop/static/js/main.bbde5ea1.js",
     "static/media/clothing.mp4": "/UzbShop/static/media/clothing.47e0604d2bea14df351a.mp4",
     "static/media/brelok_qora.jpg": "/UzbShop/static/media/brelok_qora.b8fc42186d7bdf5af482.jpg",
     "static/media/brelok_oq.jpg": "/UzbShop/static/media/brelok_oq.04b8721f43388d7e0dbd.jpg",
@@ -28,10 +28,10 @@
     "static/media/qop qora chexol.jpg": "/UzbShop/static/media/qop qora chexol.b8419ed2416467f00c19.jpg",
     "index.html": "/UzbShop/index.html",
     "main.68a1a155.css.map": "/UzbShop/static/css/main.68a1a155.css.map",
-    "main.b9ea7dd0.js.map": "/UzbShop/static/js/main.b9ea7dd0.js.map"
+    "main.bbde5ea1.js.map": "/UzbShop/static/js/main.bbde5ea1.js.map"
   },
   "entrypoints": [
     "static/css/main.68a1a155.css",
-    "static/js/main.b9ea7dd0.js"
+    "static/js/main.bbde5ea1.js"
   ]
 }
