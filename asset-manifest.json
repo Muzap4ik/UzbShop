@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/UzbShop/static/css/main.68a1a155.css",
+    "main.js": "/UzbShop/static/js/main.10dab8a0.js",
+    "static/media/clothing.mp4": "/UzbShop/static/media/clothing.47e0604d2bea14df351a.mp4",
+    "static/media/brelok_qora.jpg": "/UzbShop/static/media/brelok_qora.b8fc42186d7bdf5af482.jpg",
+    "static/media/brelok_oq.jpg": "/UzbShop/static/media/brelok_oq.04b8721f43388d7e0dbd.jpg",
+    "static/media/bg-image.jpg": "/UzbShop/static/media/bg-image.4a0aefc8d592af4d2755.jpg",
+    "static/media/komplekt.jpg": "/UzbShop/static/media/komplekt.a7d0638b6d6bfe9b737f.jpg",
+    "static/media/rasm.jpg": "/UzbShop/static/media/rasm.78b8dd980868d79ce4ae.jpg",
+    "static/media/sogot oq.jpg": "/UzbShop/static/media/sogot oq.adbc491f339618c5f0f0.jpg",
+    "static/media/sogot qora.jpg": "/UzbShop/static/media/sogot qora.1bf193f92e4c0572a16d.jpg",
+    "static/media/kepka_odamrang.webp": "/UzbShop/static/media/kepka_odamrang.3c9c978b89837c89d28a.webp",
+    "static/media/kiyim_kulrang_bola.webp": "/UzbShop/static/media/kiyim_kulrang_bola.f89e7e7b6a9653d96143.webp",
+    "static/media/kepka_kulrang.webp": "/UzbShop/static/media/kepka_kulrang.42122904f99bd3f54424.webp",
+    "static/media/kepka_yashil.webp": "/UzbShop/static/media/kepka_yashil.cea0c1f466a665566149.webp",
+    "static/media/kiyim_kulrang.webp": "/UzbShop/static/media/kiyim_kulrang.608c7c4ef67ebd5b356f.webp",
+    "static/media/certificate.jpg": "/UzbShop/static/media/certificate.d5be131ca8aefdb6759d.jpg",
+    "static/media/kepka_qora.webp": "/UzbShop/static/media/kepka_qora.f70904d209d936b00d54.webp",
+    "static/media/oq_futbolka_qiz.webp": "/UzbShop/static/media/oq_futbolka_qiz.46b78b42c10f13c42723.webp",
+    "static/media/yashil_futbolka_bola.webp": "/UzbShop/static/media/yashil_futbolka_bola.90ef0c2e34d04d39d168.webp",
+    "static/media/qora_futbolka_bola.webp": "/UzbShop/static/media/qora_futbolka_bola.a6ac57adf2cc995914cb.webp",
+    "static/media/kiyim_qizil.webp": "/UzbShop/static/media/kiyim_qizil.1dbdadd325f64c045b94.webp",
+    "static/media/qora_futbolka_qiz.webp": "/UzbShop/static/media/qora_futbolka_qiz.853387bbffdc63b47611.webp",
+    "static/media/cert2.webp": "/UzbShop/static/media/cert2.f2ca86a0167af844f092.webp",
+    "static/media/kiyim_kok_qiz.webp": "/UzbShop/static/media/kiyim_kok_qiz.725311bcd2bbc003873a.webp",
+    "static/media/qora chexol.jpg": "/UzbShop/static/media/qora chexol.37799beeb32b12a29c27.jpg",
+    "static/media/qop qora chexol.jpg": "/UzbShop/static/media/qop qora chexol.b8419ed2416467f00c19.jpg",
+    "index.html": "/UzbShop/index.html",
+    "main.68a1a155.css.map": "/UzbShop/static/css/main.68a1a155.css.map",
+    "main.10dab8a0.js.map": "/UzbShop/static/js/main.10dab8a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68a1a155.css",
+    "static/js/main.10dab8a0.js"
+  ]
+}
