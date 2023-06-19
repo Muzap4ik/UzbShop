@@ -1,5 +1,6 @@
 import React from "react";
 import "./MyFooter.css";
+
 const MyFooter = () => {
   return (
     <div className="myFooter-container">
@@ -12,18 +13,12 @@ const MyFooter = () => {
           <li>+998 33 767 35 37</li>
         </ul>
       </div>
-      <div className="footer-links">
-       <ul>
-        <a href="">
+      <div className="footer-contacts">
+        <ul>
           <li>Instagram</li>
-        </a>
-        <a href="">
-          <li>Telegram</li>
-        </a>
-        <a href="">
           <li>YouTube</li>
-        </a>
-       </ul>
+          <li>Telegram</li>
+        </ul>
       </div>
     </div>
   );

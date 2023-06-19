@@ -1,13 +1,15 @@
 import React from "react";
 import "./Navbar.css";
-import gerb from "../../images/rasm.jpg"
+import gerb from "../../images/rasm.jpg";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="navbar">
       <div className="nav-logo">
-        <img src={gerb} alt="image" />
-        <h1>uzb shop</h1>
+        <Link to={"/home"} id="logo">
+          <img src={gerb} alt="image" />
+        </Link>
+        <Link to={"/home"} id="h1">uzb shop</Link>
       </div>
       <div classname="links">
         <ul id="linked">
