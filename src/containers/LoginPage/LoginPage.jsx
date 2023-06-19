@@ -80,7 +80,7 @@ const LoginPage = () => {
     const submitHandler = (e) => {
         e.preventDefault()
         console.log(`Ismingiz ${name}\nPochtangiz: ${email}\nYoshingiz: ${age}`)
-        window.location.replace("htpps://Muzap4ik.github.io/UzbShop#/home")
+        window.location.replace("https://muzap4ik.github.io/UzbShop/#/home")
     }
 
   return (
